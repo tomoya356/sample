@@ -1,0 +1,274 @@
+/*
+Theme Name: tomoya
+Theme URI: http://blog-roughfashion.com/
+Author: tomoya
+Author URI: http://blog-roughfashion.com/
+Description: fashion
+Version: 1.0
+*/
+body {
+  font-size: 14px;
+  font-family: monospace;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+p {
+}
+
+.container {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* header */
+
+#header {
+  width: 100%;
+  height: 300px;
+}
+
+.header-title {
+  display: inline-block;
+  margin: 60px 100px;
+} 
+
+    h1 {
+      font-size: 80px;
+      letter-spacing: 4px;
+      font-weight: bold; 
+    }
+    
+    h1:hover {
+      opacity: 0.7;
+    } 
+
+.header-icon {
+  float: right;
+  margin: 60px 100px;
+}
+
+.menu {
+  margin: 0 80px;
+  float: right;
+}
+
+  .menu li {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    float: left;
+    text-align: center;
+    text-align: justify;
+    opacity: 0.8;
+  }
+
+  .menu a {
+    display: inline-block;
+    margin: 0 15px;
+  }
+
+  .menu a:hover {
+    transition: all .3s ease 0s;
+    cursor: pointer;
+    transform: scale(1.2);
+  } 
+
+/* shops */
+
+.shops {
+}
+
+/* apparel */
+
+.apparel {
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+  background-color: crimson;
+}
+
+#ap-photo {
+  /* margin: 0 auto; */
+  width: 600px;
+  height: 400px;
+  text-align: left;
+  overflow: hidden;
+  position: relative;
+  background-color: darkgoldenrod;
+}
+
+#ap-photo img {
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+  #ap-photo:hover {
+    opacity: 0.7;
+  }
+
+  .apparel-text{
+    margin-left: 80px;
+    background-color: darkgreen;
+  }
+
+  .apparel-text h2 {
+    letter-spacing: 2px;
+    font-size: 40px;
+  }
+
+
+/* cafe */
+
+.cafe {
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+}
+  
+#cf-photo {
+  /* margin: 0 auto; */
+  width: 600px;
+  height: 400px;
+  text-align: left;
+  overflow: hidden;
+  position: relative;
+}
+
+#cf-photo img {
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+  #cf-photo:hover {
+    opacity: 0.7;
+  }
+
+  .cafe-text{
+    margin-left: auto;
+    margin-right: 80px;
+  }
+  
+  .cafe-text h2 {
+    font-size: 40px;
+    letter-spacing: 2px;
+  }
+
+/* blog */
+
+  .blog {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+  
+  #bg-photo {
+    /* margin: 0 auto; */
+    width: 600px;
+    height: 400px;
+    text-align: left;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  #bg-photo img {
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  
+    #bg-photo:hover {
+      opacity: 0.7;
+    }
+  
+    .blog-text{
+       margin-left: 80px;
+    }
+  
+    .blog-text h2 {
+      font-size: 40px;
+      letter-spacing: 2px;
+    }
+
+/* news */
+
+.news {
+  height: 250px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+ .news-text {
+   margin-bottom: 30px;
+ }
+
+ .news-text h2 {
+  font-size: 40px;
+  letter-spacing: 2px;
+ }
+
+ .news-list {
+ }
+
+ .news-list a {
+   display: inline-block;
+ }
+
+ .news-list a:hover {
+  opacity: 0.7;
+ }
+
+ .news-list a time {
+   display: inline-block;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-right: 20px;
+ }
+
+ .news-list a p {
+  font-size: 20px;
+   display: inline-block;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+
+/* footer */
+
+#footer {
+  width: 100%;
+  height: 200px;
+  background-color: hsla(90, 4%, 35%, 0.502);
+  position: relative;
+}
+
+  .footer-icon { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+
+      .instagram {
+        font-size: 25px;
+        color: black;
+      }
+
+      .instagram:hover {
+        opacity: 0.7;
+      }
+
+      .facebook {
+        font-size: 25px;
+        color: black;
+        margin-left: 25px;
+      }
+
+      .facebook:hover {
+        opacity: 0.7;
+      }
